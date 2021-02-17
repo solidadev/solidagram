@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-contract Decentragram {
+contract Solidagram {
   string public name;
   uint public imageCount = 0;
   mapping(uint => Image) public images;
@@ -30,7 +30,7 @@ contract Decentragram {
   );
 
   constructor() public {
-    name = "Decentragram";
+    name = "Solidagram";
   }
 
   function uploadImage(string memory _imgHash, string memory _description) public {
