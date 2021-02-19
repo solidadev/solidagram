@@ -14,7 +14,7 @@ class Navbar extends Component {
           rel="noopener noreferrer"
         >
           <img src={photo} alt='Solida Logo' width="30" height="30" className="d-inline-block align-top" alt="" />
-          Solidagram
+          Solidagram - Decentralized Image Sharing
         </a>
         <ul className="navbar-nav px-3">
           <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
